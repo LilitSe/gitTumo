@@ -226,3 +226,6 @@ if templ == 3:
     print("I fall asleep each night on a {} of {} and dream of {} {}.".format(Noun2, Noun3, Adjective4, Noun4))
     print("It feels as though I have lived here for {} {}. ".format(Number, Measure_of_time))
     print("I hope one day you can visit, although the only way to get here now is {} on a {} {}!!".format(Verb, Adjective5, Noun5))
+    
+print("Hope you enjoyed the story")
+
