@@ -1,0 +1,228 @@
+import random
+templ = random.randint(1, 3) #selecting 1 of 3 templates
+print(templ)
+print("Let's go! Enjoy playing with words!")
+if templ == 1:
+    Number = input("Please type a number")
+    Measure_of_time = input("Please type a measure of time")
+    Mode_of_Transportation = input("Please type a mode of transportation")
+    Adjective = input("Please type an adjective")
+    Adjective2 = input("Please type another adjective")
+    while True:
+        if Adjective2 == Adjective:
+            print("Please do not repeat your answer.")
+            Adjective2 = input("Please type another adjective")
+        break
+    Noun = input("Please type a noun")
+    Color = input("Please type a color")
+    Part_of_the_Body = input("Please type a part of the body")
+    Verb = input("Please type a verb")
+    Number2 = input("Please type another number")
+    while True:
+        if Number2 == Number:
+            print("Please do not repeat your answer.")
+            Number2 = input("Please type another number")
+        break
+    Noun2 = input("Please type another noun")
+    while True:
+        if Noun2 == Noun:
+            print("Please do not repeat your answer.")
+            Noun2 = input("Please type another noun")
+        break
+    Noun3 = input("Please type another noun")
+    while True:
+        if Noun3 == Noun:
+            print("Please do not repeat your answer.")
+            Noun3 = input("Please type another noun")
+        if Noun3 == Noun2:
+            print("Please do not repeat your answer.")
+            Noun3 = input("Please type another noun")
+        break
+    Part_of_the_Body_2 = input("Please type another part of the body")
+    while True:
+        if Part_of_the_Body_2 == Part_of_the_Body:
+            print("Please do not repeat your answer.")
+            Part_of_the_Body_2 = input("Please type another part of the body")
+        break
+    Noun4 = input("Please type another noun")
+    while True:
+        if Noun4 == Noun:
+            print("Please do not repeat your answer.")
+            Noun4 = input("Please type another noun")
+        if Noun4 == Noun2:
+            print("Please do not repeat your answer.")
+            Noun4 = input("Please type another noun")
+        if Noun4 == Noun3:
+            print("Please do not repeat your answer.")
+            Noun4 = input("Please type another noun")
+        break
+    Adjective3 = input("Please type another adjective")
+    while True:
+        if Adjective3 == Adjective:
+            print("Please do not repeat your answer.")
+            Adjective3 = input("Please type another adjective")
+        if Adjective3 == Adjective2:
+            print("Please do not repeat your answer.")
+            Adjective3 = input("Please type another adjective")
+        break
+    Silly_Word = input("Please type a silly word")
+
+    print("""It was about {} {} ago when I arrived at the hospital in a {}.""".format(Number, Measure_of_time, Mode_of_Transportation))
+    print("""The hospital is a/an {} place, there are a lot of {} {} here.""".format(Adjective, Adjective2, Noun))
+    print("""There are nurses here who have {} {}.""".format(Color, Part_of_the_Body))
+    print("""If someone wants to come into my room I told them that they have to {} first.""".format(Verb))
+    print("""I’ve decorated my room with {} {}.""".format(Number2, Noun2))
+    print("""Today I talked to a doctor and they were wearing a {} on their {}.""".format(Noun3, Part_of_the_Body_2))
+    print("""I heard that all doctors {} {} every day for breakfast.""".format(Verb, Noun4))
+    print("""The most {} thing about being in the hospital is the {} {}!""".format(Adjective3,Silly_Word, Noun))
+
+if templ == 2:
+    Proper_Noun = input("Please type a Person’s Name")
+    Noun = input("Please type a noun")
+    Adjective = input("Please type a feeling")
+    Verb = input("Please type a verb")
+    Adjective2 = input("Please type another feeling")
+    while True:
+        if Adjective2 == Adjective:
+            print("Please do not repeat your answer.")
+            Adjective2 = input("Please type another feeling")
+        break
+    Animal = input("Please type an animal")
+    Verb2 = input("Please type a verb")
+    while True:
+        if Verb2 == Verb:
+            print("Please do not repeat your answer.")
+            Verb2 = input("Please type another verb")
+        break
+    Color = input("Please type a color")
+    Adverb = input("Please type an adverb ending in ly")
+    Number = input("Please type a number")
+    Measure_of_time = input("Please type a measure of time")
+    Silly_Word = input("Please type a silly word")
+    Noun2 = input("Please type another noun")
+    while True:
+        if Noun2 == Noun:
+            print("Please do not repeat your answer.")
+            Noun2 = input("Please type another noun")
+        break
+
+    print("This weekend I am going camping with {}".format(Proper_Noun))
+    print("I packed my lantern, sleeping bag, and {}".format(Noun))
+    print("I am so {} to {} in a tent.".format(Adjective, Verb))
+    print("I am {} we might see a(n) {}, I hear they’re kind of dangerous.".format(Adjective2, Animal))
+    print("While we’re camping, we are going to hike, fish, and {}.".format(Verb2))
+    print("I have heard that the {} lake is great for {}.".format(Color, Verb+"ing"))
+    print("Then we will {} hike through the forest for {} ({}).".format(Adverb, Number, Measure_of_time))
+    print("If I see a {} {} while hiking, I am going to bring it home as a pet!".format(Color, Animal))
+    print("At night we will tell {} {} stories and roast {} around the campfire!!".format(Number, Silly_Word, Noun2))
+
+if templ == 3:
+    Proper_Noun = input("Please type a Person’s Name")
+    Adjective = input("Please type an adjective")
+    Color = input("Please type a color")
+    Animal = input("Please type an animal")
+    Place = input("Please type a place")
+    Adjective2 = input("Please type another adjective")
+    while True:
+        if Adjective2 == Adjective:
+            print("Please do not repeat your answer.")
+            Adjective2 = input("Please type another adjective")
+        break
+    Magical_Creature = input("Please type a name of a Magical Creature in plural")
+    Adjective3 = input("Please type another adjective")
+    while True:
+        if Adjective3 == Adjective:
+            print("Please do not repeat your answer.")
+            Adjective3 = input("Please type another adjective")
+        if Adjective3 == Adjective2:
+            print("Please do not repeat your answer.")
+            Adjective3 = input("Please type another adjective")
+        break
+    Magical_Creature2 = input("Please type another name of a Magical Creature in plural")
+    while True:
+        if Magical_Creature2 == Magical_Creature:
+            print("Please do not repeat your answer.")
+            Magical_Creature2 = input("Please type another name of a Magical Creature in plural")
+        break
+    Noun = input("Please type a noun")
+    Noun2 = input("Please type another noun")
+    while True:
+        if Noun2 == Noun:
+            print("Please do not repeat your answer.")
+            Noun2 = input("Please type another noun")
+        break
+    Noun3 = input("Please type another noun")
+    while True:
+        if Noun3 == Noun:
+            print("Please do not repeat your answer.")
+            Noun3 = input("Please type another noun in plural")
+        if Noun3 == Noun2:
+            print("Please do not repeat your answer.")
+            Noun3 = input("Please type another noun in plural")
+        break
+    Adjective4 = input("Please type another adjective")
+    while True:
+        if Adjective4 == Adjective:
+            print("Please do not repeat your answer.")
+            Adjective4 = input("Please type another adjective")
+        if Adjective4 == Adjective2:
+            print("Please do not repeat your answer.")
+            Adjective4 = input("Please type another adjective")
+        if Adjective4 == Adjective3:
+            print("Please do not repeat your answer.")
+            Adjective4 = input("Please type another adjective")
+        break
+    Noun4 = input("Please type another noun")
+    while True:
+        if Noun4 == Noun:
+            print("Please do not repeat your answer.")
+            Noun4 = input("Please type another noun in plural")
+        if Noun4 == Noun2:
+            print("Please do not repeat your answer.")
+            Noun4 = input("Please type another noun in plural")
+        if Noun4 == Noun3:
+            print("Please do not repeat your answer.")
+            Noun4 = input("Please type another noun in plural")
+        break
+    Number = input("Please type a number")
+    Measure_of_time = input("Please type a measure of time")
+    Verb = input("Please type a verb ending in ing")
+    Adjective5 = input("Please type another adjective")
+    while True:
+        if Adjective5 == Adjective:
+            print("Please do not repeat your answer.")
+            Adjective5 = input("Please type another adjective")
+        if Adjective5 == Adjective2:
+            print("Please do not repeat your answer.")
+            Adjective5 = input("Please type another adjective")
+        if Adjective5 == Adjective3:
+            print("Please do not repeat your answer.")
+            Adjective5 = input("Please type another adjective")
+        if Adjective5 == Adjective4:
+            print("Please do not repeat your answer.")
+            Adjective5 = input("Please type another adjective")
+        break
+    Noun5 = input("Please type another noun")
+    while True:
+        if Noun5 == Noun:
+            print("Please do not repeat your answer.")
+            Noun5 = input("Please type another noun in plural")
+        if Noun5 == Noun2:
+            print("Please do not repeat your answer.")
+            Noun5 = input("Please type another noun in plural")
+        if Noun5 == Noun3:
+            print("Please do not repeat your answer.")
+            Noun5 = input("Please type another noun in plural")
+        if Noun5 == Noun4:
+            print("Please do not repeat your answer.")
+            Noun5 = input("Please type another noun in plural")
+        break
+    Room = input("Please type a name of a room in a house")
+
+    print(" Dear {}, I am writing to you from a {} castle in an enchanted forest.".format(Proper_Noun, Adjective))
+    print(" I found myself here one day after going for a ride on a {} {} in {}. ".format(Color, Animal, Place))
+    print("There are {} {} and {} {} here!".format(Adjective2, Magical_Creature, Adjective3, Magical_Creature2))
+    print("In the {} there is a pool full of {}.".format(Room, Noun))
+    print("I fall asleep each night on a {} of {} and dream of {} {}.".format(Noun2, Noun3, Adjective4, Noun4))
+    print("It feels as though I have lived here for {} {}. ".format(Number, Measure_of_time))
+    print("I hope one day you can visit, although the only way to get here now is {} on a {} {}!!".format(Verb, Adjective5, Noun5))
