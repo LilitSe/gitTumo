@@ -4,21 +4,16 @@ print(sum)
 
 # checking if the player wins
 if sum == 7:
-    winner = True
     print("You win")
 elif sum == 11:
-    winner = True
     print("You win")
 
 # checking if the player loses
 if sum == 2:
-     winner = False
      print("You lose")
 elif sum == 3:
-     winner = False
      print("You lose")
 elif sum == 12:
-     winner = False
      print("You lose")
 
 if sum != 7 and 11 and 2 and 3 and 12:
@@ -32,9 +27,7 @@ if sum != 7 and 11 and 2 and 3 and 12:
         if sum1 != 7:
             continue
         else:
-            winner = False
             print("You lose")
             break
     else:
-        winner = True
         print("You win")
