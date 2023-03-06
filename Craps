@@ -1,0 +1,40 @@
+import random
+sum = random.randint(1,6) + random.randint(1,6) #shows the sum of 2 rolls of a dice
+print(sum)
+
+# checking if the player wins
+if sum == 7:
+    winner = True
+    print("You win")
+elif sum == 11:
+    winner = True
+    print("You win")
+
+# checking if the player loses
+if sum == 2:
+     winner = False
+     print("You lose")
+elif sum == 3:
+     winner = False
+     print("You lose")
+elif sum == 12:
+     winner = False
+     print("You lose")
+
+if sum != 7 and 11 and 2 and 3 and 12:
+    print("Try again")
+    sum1 = random.randint(1,6) + random.randint(1,6) #rolling the dice again
+    print(sum1)
+    while sum1 != sum:
+        print("Try again")
+        sum1 = random.randint(1,6) + random.randint(1,6)
+        print(sum1)
+        if sum1 != 7:
+            continue
+        else:
+            winner = False
+            print("You lose")
+            break
+    else:
+        winner = True
+        print("You win")
